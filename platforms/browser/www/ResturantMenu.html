@@ -1,0 +1,207 @@
+
+
+    <ons-page id="ResturantMenu">
+        <ons-toolbar style="background-color: rgb(233, 163, 71)">
+          <div class="left">
+            <ons-back-button></ons-back-button>
+          </div>
+          <div class="right" style="margin-right: 15px">
+            <ons-icon icon="md-face"></ons-icon>
+          </div>
+          <div class="center">Menu</div>
+        </ons-toolbar>
+        <ons-card style="background-color: rgba(255, 235, 205, 0.37)">
+          <ons-row style="border: none">
+            <ons-col>
+              <left>
+                <div modifier="chevron" id="item1" class="list_item"></div>
+                <div class="imglist"
+                  style="background-image: url('https://firebasestorage.googleapis.com/v0/b/fooddeliveryapp-51a8d.appspot.com/o/logo%2Fkfc.jpg?alt=media&token=f6f0597d-5afb-43ff-a300-ad3948a647e8')">
+  
+                </div>
+              </left>
+  
+            </ons-col>
+            <ons-col>
+              <left>
+                <div class="list_item_title" id="item1_Name">KFC</div>
+              </left>
+              <left>
+                <div class="list_title" id="item1_title"> Free delivery </div>
+              </left>
+            </ons-col>
+            <ons-col>
+              <center>
+                <div class="imgrate"
+                  style="background-image: url('https://firebasestorage.googleapis.com/v0/b/fooddeliveryapp-51a8d.appspot.com/o/rate%2Fstar4.png?alt=media&token=e1b267a9-26d9-45ba-82b4-fc30742dadd1')">
+  
+                </div>
+              </center>
+              <br>
+              
+                      
+               
+              <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+                <div class="row">
+                    
+              <div class="col">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart" onclick="fn.pushPage({'id': 'OrderConfirm.html', 'title': 'OrderConfirm'})">Cart (<span class="total-count"></span>)</button>
+                <button class="clear-cart btn btn-danger">Clear Cart</button></div>
+          </div>
+        </div>
+      </nav>
+            </ons-col>
+          </ons-row>
+  
+          <ons-list-header style="background-color: rgb(165, 93, 42)">
+            <h5>Snack And Egg Tart</h5>
+          </ons-list-header>
+          <ons-card>
+            <ons-row>
+                <ons-col>
+                    <div class="left">
+                      <h5>ไก่กรอบซอสมาโย</h5>
+                      
+                    </div>
+                  </ons-col>
+  
+              <ons-col>
+                <center>
+                  <div modifier="chevron" id="item1" class="menu_item"></div>
+                  <div class="imgmenu"
+                    style="background-image: url('https://firebasestorage.googleapis.com/v0/b/fooddeliveryapp-51a8d.appspot.com/o/KFC%2FMayo.png?alt=media&token=df538860-f68b-4872-a562-1eb128b44a6d')">
+  
+                  </div>
+                </center>
+              </ons-col>
+  
+            </ons-row>
+  
+            <ons-row>
+                <ons-col style="margin-top: 15px;">
+                    ฿39.00
+                </ons-col>
+                <ons-col>
+                   <a href="#" data-name="ไก่กรอบซอสมาโย" data-price="39" class="add-to-cart btn btn-primary">Add to cart</a>
+                  
+                 
+                </ons-col>
+              </ons-row>
+          </ons-card>
+          <ons-card>
+            <ons-row>
+              <ons-col>
+                <div class="left">
+                  <h5>ไก่วิงซ์แซ่บ</h5>
+                  <h7>
+                    3 pcs
+                  </h7>
+                </div>
+              </ons-col>
+  
+              <ons-col>
+                <center>
+                  <div modifier="chevron" id="item2" class="menu_item"></div>
+                  <div class="imgmenu"
+                    style="background-image: url('https://firebasestorage.googleapis.com/v0/b/fooddeliveryapp-51a8d.appspot.com/o/KFC%2Fwick.png?alt=media&token=3d4157ff-6466-47c9-a5eb-2d22e6cfc16c')">
+  
+                  </div>
+                </center>
+              </ons-col>
+  
+            </ons-row>
+  
+            <ons-row>
+              <ons-col style="margin-top: 15px;">
+                  ฿49.00
+              </ons-col>
+              <ons-col>
+                 <a href="#" data-name="ไก่วิงซ์แซ่บ" data-price="49" class="add-to-cart btn btn-primary">Add to cart</a>
+                
+               
+              </ons-col>
+  
+  
+            </ons-row>
+          </ons-card>
+  
+          <ons-list-header style="background-color: rgb(165, 93, 42)">
+            <h5>Rice</h5>
+          </ons-list-header>
+          <ons-card>
+            <ons-row>
+              <ons-col>
+                <div class="left">
+                  <h5>ข้าวยำไก่แซ่บ </h5>
+                  
+                </div>
+              </ons-col>
+  
+              <ons-col>
+                <center>
+                  <div modifier="chevron" id="item3" class="menu_item"></div>
+                  <div class="imgmenu"
+                    style="background-image: url('https://firebasestorage.googleapis.com/v0/b/fooddeliveryapp-51a8d.appspot.com/o/KFC%2Fbowlsp.png?alt=media&token=0054bfb2-3de9-4aea-b5eb-698ca85a70bf')">
+  
+                  </div>
+                </center>
+              </ons-col>
+  
+            </ons-row>
+  
+            <ons-row>
+                <ons-col style="margin-top: 15px;">
+                    ฿59.00
+                </ons-col>
+                <ons-col>
+                   <a href="#" data-name="ข้าวยำไก่แซ่บ" data-price="59" class="add-to-cart btn btn-primary">Add to cart</a>
+                  
+                 
+                </ons-col>
+    
+    
+              </ons-row>
+          </ons-card>
+          <ons-card>
+            <ons-row>
+              <ons-col>
+                <div class="left">
+                  <h5>ข้าวยำปลาแซ่บ</h5>
+                  
+                </div>
+              </ons-col>
+  
+              <ons-col>
+                <center>
+                  <div modifier="chevron" id="item4" class="menu_item"></div>
+                  <div class="imgmenu"
+                    style="background-image: url('https://firebasestorage.googleapis.com/v0/b/fooddeliveryapp-51a8d.appspot.com/o/KFC%2FFishsp.png?alt=media&token=ec013215-7737-4f5d-9e8e-f2a0cff6def6')">
+  
+                  </div>
+                </center>
+              </ons-col>
+  
+            </ons-row>
+  
+            <ons-row>
+                <ons-col style="margin-top: 15px;">
+                    ฿65.00
+                </ons-col>
+                <ons-col>
+                   <a href="#" data-name="ข้าวยำปลาแซ่บ" data-price="65" class="add-to-cart btn btn-primary">Add to cart</a>
+                  
+                 
+                </ons-col>
+    
+    
+              </ons-row>
+          </ons-card>
+          
+          </ons-row>  
+  
+        </ons-card>
+    
+  
+      </ons-page>
+    
+     
